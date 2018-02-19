@@ -1,0 +1,274 @@
+@charset "utf-8";
+
+li.li{
+    display: inline;
+    padding: 100px;
+    color:black;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px  #888888;
+    font-family: Calibri, sans-serif;
+    font-size: 15pt; 
+    padding-right: 15px;
+}
+
+span.span-li:hover{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border: 1px solid goldenrod;
+    background-color: lightgoldenrodyellow;
+    transition: 1s;
+}
+
+ul#ul-nav{
+    background-color: bisque;
+    padding: 15px;
+    margin-top: -50px;
+    border: 1px solid goldenrod;
+    box-shadow: 1px 1px 5px #888888;    
+}
+
+img#lupa{
+    margin-top: -16px;
+    margin-left: 63px;
+}
+
+div{
+    font-family: calibri,sans-serif;
+    margin-left: 90px;
+    margin-right: 90px;
+    width: 1150px;
+    padding-bottom: 200px;
+    background: white;
+    
+    box-shadow: 1px 1px 4px #888888;
+}
+.visivel{
+    display: block;
+    position: relative;
+    top:43px;
+}
+
+.visivel2{
+    display: block;
+    position: absolute;
+    top:72px;
+}
+
+img#troca{
+    display: block;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 1000px;
+    margin-bottom: -200px;
+   
+}
+
+
+
+.opacidade{
+    display:none;
+}
+
+
+.mover-linha{
+    display: block;
+    position: absolute;
+    top:100px;
+}
+
+img#troca1{
+    margin-top: -30px;
+    margin-left: 700px;
+}
+
+article#conteudo{
+    border-top: 1px solid rgb(216, 128, 21);
+    margin-top: 0px;
+    
+}
+
+header#inicio{
+    background-image: url("../_imagens/docesback.jpg");
+    margin-bottom: 0px;
+}
+
+.mover-header{
+    padding-bottom: 100px;
+}
+
+body{
+    background-image: url("../_imagens/fundoBody.jpg");
+}
+
+p#paragrafo{
+    text-indent: 50px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul#tabela-imagens{
+    margin-top: 0px;
+}
+
+li.icone-imagens1{
+    display: inline;
+    border: 1px solid white;
+    box-shadow: 1px 1px 8px brown;
+    background-color: #b88755;
+    padding: 150px;
+    margin-left: 180px;
+    padding-right: 20px;
+    
+}
+
+img#foto01{
+    position: relative;
+    top: 75px;
+    right: 60px;
+}
+
+li.icone-imagens2{
+    display: inline;
+    border: 1px solid white;
+    box-shadow: 1px 1px 8px green;
+    background-color: #009900;
+    padding: 150px;
+    margin-left: 10px;
+    padding-right: 0px;
+}
+
+img#foto02{
+    position: relative;
+    top: 80px;
+    right: 70px;
+}
+li.icone-imagens3{
+    display: inline;
+    border: 1px solid white;
+    box-shadow: 1px 1px 8px #888888;
+    background-color: #dcdcdc;
+    padding: 150px;
+    margin-left: 180px;
+    padding-right: 0px;
+}
+
+img#foto03{
+    position: relative;
+    top: 80px;
+    right: 80px;
+}
+li.icone-imagens4{
+    display: inline;
+    border: 1px solid white;
+    box-shadow: 1px 1px 8px black;
+    background-color: #a5a5a5;
+    padding: 150px;
+    margin-left: 10px;
+    padding-right: 40px;
+}
+img#foto04{
+    position: relative;
+    top: 80px;
+    right: 50px;
+}
+
+span#fotos5{
+    position: absolute;
+    top: 265px;
+    left: 320px;
+    font-size: 15pt;
+    font-family: calibri,sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0,0,0.5);
+    width: 348px;
+    height: 318px;
+    opacity: 0;
+}
+
+span#fotos5:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+span#fotos6{
+    position: absolute;
+    top: 265px;
+    left: 688px;
+    font-size: 15pt;
+    font-family: calibri,sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0,0,0.5);
+    width: 346px;
+    height: 319px;
+    opacity: 0;
+}
+
+span#fotos6:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+span#fotos7{
+    position: absolute;
+    top: 597px;
+    left: 320px;
+    font-size: 15pt;
+    font-family: calibri,sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0,0,0.5);
+    width: 346px;
+    height: 319px;
+    opacity: 0;
+}
+
+span#fotos7:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+span#fotos8{
+    position: absolute;
+    top: 597px;
+    left: 688px;
+    font-size: 15pt;
+    font-family: calibri,sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0,0,0.5);
+    width: 348px;
+    height: 318px;
+    opacity: 0;
+}
+
+span#fotos8:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+footer#rodape{
+    position: relative;
+    top: 180px;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+a{
+    color: black;
+}
+
+.mover-imagem-top{
+    display: block;
+    margin-top: 50px;
+}
+
+.invi{
+    display: none;
+}
+
+img.img-footer{
+    position: relative;
+    top: 6px;
+    padding-right: 3px;
+}
