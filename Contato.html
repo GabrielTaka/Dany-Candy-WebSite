@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dany Candy</title>
+    <link rel="stylesheet" type="text/css" href="_css/formatacao.css">
+    <link rel="stylesheet" type="text/css" href="_css/formatacao-form.css">
+
+</head>
+
+<body>
+    <div>
+        <section>
+            <header id="inicio">
+                <nav id="menu">
+                    <ul id="ul-nav">
+                        <li class="li"> <a href= "Index.html"><span  class="span-li" onmousemove="TrocaFoto2('_imagens/home.png')" onmouseout="TrocaFoto2('')">HOME</span></a>
+
+                        </li>
+                        <li class="li">
+                            <a href= "Doces.html"><span  class="span-li" onmousemove="TrocaFoto2('_imagens/brigadeiro1.png')" onmouseout="TrocaFoto2('')">DOCES</span></a>  
+                        </li>
+                        <li class="li">
+                            <a href= "Preco.html"><span class="span-li" onmousemove="TrocaFoto2('_imagens/dinheiro1.png')" onmouseout="TrocaFoto2('')">PREÇOS</span></a>
+                        </li>
+                        <li class="li">
+                            <a href= "Empresa.html"><span class="span-li" onmousemove="TrocaFoto2('_imagens/predio1.png')" onmouseout="TrocaFoto2('')">EMPRESA</span></a>
+                        </li>
+                        <li class="li">
+                            <a href= "Contato.html"><span class="span-li" onmousemove="TrocaFoto2('_imagens/contato1.png')" onmouseout="TrocaFoto2('')">CONTATO</span></a>
+                        </li>
+                    </ul>
+                    <img id="lupa" src="_imagens/pesquisa1.png" onmousemove="TrocaFoto('_imagens/pesquisa4.png')" onmouseout="TrocaFoto('_imagens/pesquisa1.png')">
+                </nav>
+                <img id="troca" src="">
+
+
+
+                <img id="troca1" src="_imagens/logo1.PNG">
+            </header>
+        </section>
+
+        <article id="conteudo">
+            <h1>CONTATO</h1>
+            <p id="inicio">Nos envie e-mail em caso de dúvidas, orçamento de doces personalizados ou agendamento para visita! </p>
+            <form id="formulario" method="post"  action="mailto:DanyCandy@outlook.com.br">
+                <fieldset id="informacao"><legend class="titulo">Informação do Usuário</legend>
+                    <p class="texto">Nome:<input class="input" type="text" placeholder="Insira seu nome completo..." size="40" maxlength="30"></p>
+                    <p class="texto">Endereço:<input class="input" type="text" placeholder="Ex: Av. Brasil" size="40" maxlength="30"> </p>
+                    <p class="texto">Bairro:<input class="input" type="text" placeholder="Ex: Borda da Mata" size="40" maxlength="30"> </p>
+                    <p class="texto">Número Residencial:<input class="input" type="number" min="0"> </p>
+                    <p class="texto"> E-mail: <input class="input" type="email" placeholder="Ex: doce@outlook.com.br" size="40" maxlength="30"> </p>
+                </fieldset>
+
+                <fieldset><legend>Mensagem do Usuário</legend>
+                    <p class="texto"> Mensagem: <textarea  cols="70" rows="11" id="area-texto" placeholder="Insira seu texto..."></textarea></p>
+                </fieldset>
+                <input type="image" class="botao" src="_imagens/botao-enviar.png">
+            </form>
+        
+        
+        
+        </article>
+        <footer id="rodape">
+            <p>Copyright 2018 - by Gabriel Takahashi
+                <br>
+                <img class="img-footer" src="_imagens/instagram.png"><a href="https://www.instagram.com/grabson3/?hl=pt-br" target="_blank">Instagram</a> |
+                <img class="img-footer" src="_imagens/github.png"><a href="https://github.com/GabrielTaka" target="_blank">GitHub</a>
+            </p>
+        </footer>
+        
+    </div>
+    <script src="_js/pesquisar.js"></script>
+    <script src="_js/troca.js"></script>
+
+
+</body>
+
+
+</html>
